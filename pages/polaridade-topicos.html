@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Lise</title>
+    <!-- Favicon-->
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <link href="../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="../plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="../plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Morris Chart Css-->
+    <link href="../plugins/morrisjs/morris.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="../css/themes/all-themes.css" rel="stylesheet" />
+
+    <!-- font logo -->
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+</head>
+
+<body class="theme-cyan">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Por favor, aguarde...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" id='logo' href="index.html">Lise</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">
+                            <i class="material-icons">layers</i>
+                        </a>
+                    </li>
+                    <!-- Notifications -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <i class="material-icons">notifications</i>
+                            <span class="label-count">5</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">NOTIFICAÇÕES</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">person_add</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>12 new members joined</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 14 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-cyan">
+                                                <i class="material-icons">add_shopping_cart</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>4 sales made</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 22 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-red">
+                                                <i class="material-icons">delete_forever</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy Doe</b> deleted account</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-orange">
+                                                <i class="material-icons">mode_edit</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy</b> changed name</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 2 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-blue-grey">
+                                                <i class="material-icons">comment</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> commented your post</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 4 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">cached</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> updated status</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-purple">
+                                                <i class="material-icons">settings</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>Settings updated</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> Yesterday
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="javascript:void(0);">View All Notifications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Notifications -->
+                    <!-- Tasks -->
+                    <!-- #END# Tasks -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle clearfix" data-toggle="dropdown" role="button">
+                            <i class="material-icons">person</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="minha-conta.html"><i class="material-icons">account_box</i>Minha Conta</a></li>
+                            <li role="seperator" class="divider"></li>
+                            <li><a href="sign-in.html"><i class="material-icons">input</i>Sair</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+                    <li class="header bg-blue-grey">MODO DE VISUALIZAÇÃO</li>
+                    <li class=''>
+                        <a href="dashboard.html">
+                            <i class="material-icons">border_all</i>
+                            <span>Todos</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#" class="menu-toggle">
+                            <i class="material-icons">storage</i>
+                            <span>Tópicos</span>
+                        </a>
+                        <ul class="ml-menu active">
+                            <li>
+                                <a href="principais-topicos.html" >
+                                    <span>Principais Tópicos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="polaridade-topicos.html">
+                                    <span style="color:  #00BCD4;">Polaridade dos Tópicos</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li>
+                        <a href="#">
+                            <i class="material-icons">chat</i>
+                            <span>Opiniões</span>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">lightbulb_outline</i>
+                            <span>Sugestões</span>
+                        </a>
+                        <ul class="ml-menu active">
+                            <li>
+                                <a href="sugestoes-lugares.html">
+                                    <span>Sugestões de Outros Lugares</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">schedule</i>
+                            <span>Funcionamento</span>
+                        </a>
+                        <ul class="ml-menu active">
+                            <li>
+                                <a href="dias-funcionamento.html">
+                                    <span>Dias de Funcionamento</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">map</i>
+                            <span>Mapas</span>
+                        </a>
+                        <ul class="ml-menu active">
+                            <li>
+                                <a href="regioes-concorrencia.html">
+                                    <span>Regiões de Concorrencia</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li>
+                        <a href="#">
+                            <i class="material-icons">contacts</i>
+                            <span>Contatos</span>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- #Menu -->
+            <!-- Footer -->
+            <div class="legal">
+                <div class="copyright">
+                    &copy; 2017 <a href="javascript:void(0);"> Nayara Silva - IFPI</a>.
+                </div>
+                <div class="version">
+                    <b>Version: </b> 1.0.0
+                </div>
+            </div>
+            <!-- #Footer -->
+        </aside>
+         <!--#END# Left Sidebar-->
+    </section>
+<!-- conteudo -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <h2>PRINCIPAIS TÓPICOS</h2>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            Tópicos
+                        </div>
+                        <div class="body bg-blue-grey">
+                            Os tópicos são assuntos da concorrencia que os clientes estão comentando. Veja mais detalhes em <a style="color: #fff;" href="principais-topicos.html">Principais Tópicos</a>.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            Possitivo ou Negativo
+                        </div>
+                        <div class="body bg-blue-grey">
+                           Essa polaridade destaca os pontos fortes e fracos dos concorrentes em relação às avaliações dos clientes. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>POLARIDADE DOS TÓPICOS</h2>
+                        </div>
+                        <div class="body">
+                            <div id="chart_todos_div"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Jquery Core Js -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="../plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="../plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="../plugins/node-waves/waves.js"></script>
+
+    <!-- Jquery CountTo Plugin Js -->
+    <script src="../plugins/jquery-countto/jquery.countTo.js"></script>
+
+    <!-- Morris Plugin Js -->
+    <script src="../plugins/raphael/raphael.min.js"></script>
+    <script src="../plugins/morrisjs/morris.js"></script>
+
+    <!-- ChartJs -->
+    <script src="../plugins/chartjs/Chart.bundle.js"></script>
+
+    <!-- Google Maps API Js -->
+    <script src="https://maps.google.com/maps/api/js?v=3&libraries=visualization"></script>
+
+    <!-- GMaps PLugin Js -->
+    <script src="../plugins/gmaps/gmaps.js"></script>
+
+    <!-- CHART LOADER -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Flot Charts Plugin Js -->
+    <script src="../plugins/flot-charts/jquery.flot.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.time.js"></script>
+
+    <!-- Sparkline Chart Plugin Js -->
+    <script src="../plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+    <!-- Jquery Knob Plugin Js -->
+    <script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="../js/admin.js"></script>
+    <script src="../js/pages/index.js"></script>
+    <script src="../js/pages/charts/jquery-knob.js"></script>
+    <script src="../js/pages/maps/google.js"></script>
+
+
+
+    <!-- Demo Js -->
+    <script src="../js/demo.js"></script>
+
+</body>
+
+</html>

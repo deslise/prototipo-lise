@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Lise</title>
+    <!-- Favicon-->
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <link href="../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="../plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="../plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Morris Chart Css-->
+    <link href="../plugins/morrisjs/morris.css" rel="stylesheet" />
+
+    <!-- Sweetalert Css -->
+    <link href="../plugins/sweetalert/sweetalert.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="../css/themes/all-themes.css" rel="stylesheet" />
+
+    <!-- font logo -->
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+</head>
+
+<body class="theme-cyan">
+
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" id='logo' href="index.html">Lise</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">
+                            <i class="material-icons">layers</i>
+                        </a>
+                    </li>
+                    <!-- Notifications -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <i class="material-icons">notifications</i>
+                            <span class="label-count">5</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">NOTIFICAÇÕES</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">person_add</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>12 new members joined</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 14 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-cyan">
+                                                <i class="material-icons">add_shopping_cart</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>4 sales made</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 22 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-red">
+                                                <i class="material-icons">delete_forever</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy Doe</b> deleted account</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-orange">
+                                                <i class="material-icons">mode_edit</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy</b> changed name</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 2 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-blue-grey">
+                                                <i class="material-icons">comment</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> commented your post</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 4 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">cached</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> updated status</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-purple">
+                                                <i class="material-icons">settings</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>Settings updated</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> Yesterday
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="javascript:void(0);">View All Notifications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Notifications -->
+                    <!-- Tasks -->
+                    <!-- #END# Tasks -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle clearfix" data-toggle="dropdown" role="button">
+                            <i class="material-icons">person</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="minha-conta.html"><i class="material-icons">account_box</i>Minha Conta</a></li>
+                            <li role="seperator" class="divider"></li>
+                            <li><a href="sign-in.html"><i class="material-icons">input</i>Sair</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    
+<!-- conteudo -->
+    <section class="content" id="sem-margem">
+        <div class="container-fluid">
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix block-header" >
+                        <div class="col-lg-9 col-md-8 col-sm-10 col-xs-10">
+                            <h2>PLANOS DE NEGÓCIOS</h2>
+                        </div>
+                        <!-- <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2" >
+                            <a type="button" class="btn btn-outline-primary bg-blue" href='cadastro.html'><b>ADICIONAR</b>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="header bg-blue-grey">
+                                    <h2>
+                                        Pizzaria<br><small><em>Teresina, PI</em></small><small>34 dias de análise</small>
+                                    </h2>
+                                    <ul class="header-dropdown m-r--5">
+                                        <li>
+                                            <button  onclick="window.location = 'dashboard.html';" type="button" class="btn bg-blue-grey waves-effect">
+                                                <i class="material-icons">timeline</i>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button  onclick="window.location = 'editar-negocio.html';" type="button" class="btn bg-blue-grey waves-effect">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button type="button" onclick="deletarPlano();" class="btn bg-blue-grey waves-effect">
+                                                <i class="material-icons">delete</i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="body">
+                                    Aqui fica uma breve descrição do plano de negócio...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="float: right;">
+                        <a type="button" class="btn btn-outline-primary bg-blue-grey" href='cadastro.html'><b>ADICIONAR</b>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix block-header">
+                        <div class="col-lg-9 col-md-8 col-sm-10 col-xs-10">
+                            <h2>MINHA EMPRESA</h2>
+                        </div> 
+                    </div>                   
+                    <div class="row clearfix">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="info-box bg-blue hover-zoom-effect" style="height: 120px;">
+                                <div class="icon">
+                                    <br>
+                                    <i class="material-icons">business</i>
+                                </div>
+                                <div class="content">
+                                    <h2 style="font-size: 20px;">
+                                        Mercatto da Pizza
+                                        <br><small style="color: white;">Pizzaria</small>
+                                        <br><small style="color: white;"><em>Teresina, PI</em></small>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8  col-md-push-2 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="body">
+                                    <ul class="dashboard-stat-list" style="font-size: 15px;">
+                                        <li>
+                                            <b>Nome da Empresa</b> <span class="pull-right">Mercatto da Pizza</span>
+                                        </li>
+                                        <li>
+                                            <b>Idade</b> <span class="pull-right">1 ano e 5 meses</span>
+                                        </li>
+                                        <li>
+                                            <b>Categoria de Negócio</b> <span class="pull-right">Alimenticio - Pizzaria</span>
+                                        </li>
+                                        <li>
+                                            <b>Localização</b> <span class="pull-right">Teresina - PI</span>
+                                        </li>
+                                        <li>
+                                            <b>Dias de Análise</b> <span class="pull-right">34 dias</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <!-- Jquery Core Js -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="../plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="../plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="../plugins/node-waves/waves.js"></script>
+
+    <!-- Jquery CountTo Plugin Js -->
+    <script src="../plugins/jquery-countto/jquery.countTo.js"></script>
+
+    <!-- Bootstrap Notify Plugin Js -->
+    <script src="../plugins/bootstrap-notify/bootstrap-notify.js"></script>
+
+    <!-- SweetAlert Plugin Js -->
+    <script src="../plugins/sweetalert/sweetalert.min.js"></script>
+
+
+    <!-- Morris Plugin Js -->
+    <script src="../plugins/raphael/raphael.min.js"></script>
+    <script src="../plugins/morrisjs/morris.js"></script>
+
+    <!-- ChartJs -->
+    <script src="../plugins/chartjs/Chart.bundle.js"></script>
+
+    <!-- GMaps PLugin Js -->
+    <script src="../plugins/gmaps/gmaps.js"></script>
+
+    <!-- CHART LOADER -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Flot Charts Plugin Js -->
+    <script src="../plugins/flot-charts/jquery.flot.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.time.js"></script>
+
+    <!-- Sparkline Chart Plugin Js -->
+    <script src="../plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+    <!-- Jquery Knob Plugin Js -->
+    <script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="../js/admin.js"></script>
+    <script src="../js/pages/index.js"></script>
+    <script src="../js/pages/charts/jquery-knob.js"></script>
+    <script src="../js/pages/maps/google.js"></script>
+    <script src="../js/pages/ui/dialogs.js"></script>
+
+
+
+    <!-- Demo Js -->
+    <script src="../js/demo.js"></script>
+
+</body>
+
+</html>
