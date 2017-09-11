@@ -68,12 +68,12 @@ $.AdminBSB.leftSideBar = {
         });
 
         //When page load
-        $.each($('.menu .list li.active'), function (i, val) {
-            var $activeAnchors = $(val).find('a:eq(0)');
+        // $.each($('.menu .list li.active'), function (i, val) {
+        //     var $activeAnchors = $(val).find('a:eq(0)');
 
-            $activeAnchors.addClass('toggled');
-            $activeAnchors.next().show();
-        });
+        //     $activeAnchors.addClass('toggled');
+        //     $activeAnchors.next().show();
+        // });
 
         //Collapse or Expand Menu
         $('.menu-toggle').on('click', function (e) {
@@ -123,10 +123,10 @@ $.AdminBSB.leftSideBar = {
             });
 
             //Scroll active menu item when page load, if option set = true
-            if ($.AdminBSB.options.leftSideBar.scrollActiveItemWhenPageLoad) {
-                var activeItemOffsetTop = $('.menu .list li.active')[0].offsetTop
-                if (activeItemOffsetTop > 150) $el.slimscroll({ scrollTo: activeItemOffsetTop + 'px' });
-            }
+            // if ($.AdminBSB.options.leftSideBar.scrollActiveItemWhenPageLoad) {
+            //     var activeItemOffsetTop = $('.menu .list li.active')[0].offsetTop
+            //     if (activeItemOffsetTop > 150) $el.slimscroll({ scrollTo: activeItemOffsetTop + 'px' });
+            // }
         }
     },
     checkStatuForResize: function (firstTime) {

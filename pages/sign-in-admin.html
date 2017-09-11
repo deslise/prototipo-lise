@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -26,38 +26,42 @@
     <!-- Custom Css -->
     <link href="../css/style.css" rel="stylesheet">
 </head>
-<body class="fp-page">
-    <div class="fp-box">
+
+<body class="login-page">
+    <div class="login-box">
         <div class="logo">
-            <a href="javascript:void(0);" id="logo">Lise</a>
-            <small>Análise de Concorrentes Automatizado</small>
+            <a href="javascript:void(0);" id="logo_grande">Lise<small style="font-size: 15px; color: white;">ADMIN</small></a>
+            <!-- <small>Análise de Concorrentes Automatizado</small> -->
         </div>
         <div class="card">
             <div class="body">
-                <form id="forgot_password" method="POST">
-                    <div class="msg">
-                        Digite seu endereço de e-mail que você usou para se registrar.
-                        Nós lhe enviaremos um e-mail com seu nome de usuário e um link para redefinir sua senha.
+                <form id="sign_in" method="POST">
+                    <div class="msg">Faça login para iniciar sua sessão</div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">person</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
+                        </div>
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon">
-                            <i class="material-icons">email</i>
+                            <i class="material-icons">lock</i>
                         </span>
                         <div class="form-line">
-                            <input type="email" class="form-control" name="email" placeholder="Email" required autofocus>
+                            <input type="password" class="form-control" name="password" placeholder="Password" required>
                         </div>
                     </div>
-
-                    <button class="btn btn-block btn-lg bg-blue-grey waves-effect" type="submit">RESETAR MINHA SENHA</button>
-
-                    <div class="row m-t-20 m-b--5 align-center">
-                        <a href="sign-in.html">Entrar!</a>
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-push-8 col-md-4 col-md-push-8 col-sm-5 col-sm-push-7 col-xs-5 col-xs-push-7">
+                            <a class="btn btn-block bg-blue-grey waves-effect" href="admin.html" type="submit">ENTRAR</a>
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
 
     <!-- Jquery Core Js -->
     <script src="../plugins/jquery/jquery.min.js"></script>
@@ -73,7 +77,7 @@
 
     <!-- Custom Js -->
     <script src="../js/admin.js"></script>
-    <script src="../js/pages/examples/forgot-password.js"></script>
+    <script src="../js/pages/examples/sign-in.js"></script>
 </body>
 
 </html>

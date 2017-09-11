@@ -15,7 +15,7 @@ function getChartJs(type) {
                 labels: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"],
                 datasets: [{
                     label: "My First dataset",
-                    data: [85, 70, 105, 105, 105, 115, 115],
+                    data: [94, 83, 94, 98, 100, 100, 96],
                     borderColor: 'rgba(0, 188, 212, 0.75)',
                     backgroundColor: 'rgba(0, 188, 212, 0.3)',
                     pointBorderColor: 'rgba(0, 188, 212, 0)',

@@ -22,12 +22,14 @@
     <!-- Animation Css -->
     <link href="../plugins/animate-css/animate.css" rel="stylesheet" />
 
+    <!-- Morris Chart Css-->
+    <link href="../plugins/morrisjs/morris.css" rel="stylesheet" />
+
     <!-- Sweetalert Css -->
     <link href="../plugins/sweetalert/sweetalert.css" rel="stylesheet" />
 
     <!-- Custom Css -->
     <link href="../css/style.css" rel="stylesheet">
-
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
     <link href="../css/themes/all-themes.css" rel="stylesheet" />
@@ -138,6 +140,7 @@
                         </ul>
                     </li>
                     <!-- #END# Notifications -->
+                    
                     <!-- Tasks -->
                     <!-- #END# Tasks -->
                     <li class="dropdown">
@@ -156,160 +159,54 @@
     </nav>
     <!-- #Top Bar -->
     
-    <!-- conteudo -->
+<!-- conteudo -->
     <section class="content" id="sem-margem">
-        <div class="container-fluid ">
-            <div class="row clearfix" style="">
-                <div class="col-lg-8 col-md-8 col-md-push-2 col-sm-12 col-xs-12">
+        <div class="container-fluid">
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="card">
-                        <div class="header">
-                            <h2>MINHA CONTA</h2>
+                        <div class='header'>
+                            <h2>O  TÓPICO QUALIDADE MUDOU DE POSIÇÃO</h2>
                         </div>
                         <div class="body">
+                            <p><small><a href='dashboard.html'>Pizzaria em Teresina - PI</a></small></p>
+                            <a href='principais-topicos.html' type="button" class="btn bg-blue-grey waves-effect pull-right">VISUALIZAR</a>
+                            <p>Passou de 30% para 35% em relação as avaliações dos cliente sobre os seus concorrentes.</p>
+                        </div>
+                    </div>
+                </div>
 
-                            <h2 class="card-inside-title" style=" font-size: 20px;">
-                                Dados Cadastrais
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                NOTIFICAÇÕES
                                 
-                                <a href="#" data-toggle="modal" data-target="#editar2Modal" style='float: right;'>
-                                    <i class="material-icons" style="color: #607D8B;">edit</i>
-                                </a>
                             </h2>
-                            <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                    <p>
-                                        <b>Nome</b> 
-                                    </p>
-                                    <p>Pedro Filho</p>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                    <p>
-                                        <b>Telefone</b> 
-                                    </p>
-                                    <p>(86) 99999-9999</p>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                    <p>
-                                        <b>Email</b> 
-                                    </p>
-                                    <p>pedro@gmail.com</p>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                    <p>
-                                        <b>Senha</b>
-                                    </p>
-                                    <p>*****</p>
-                                    <!-- <a href='javascript:void(0);' type='button' data-toggle="modal" data-target="#myModal"> Mude sua senha por  aqui</a>. -->
-                                </div>
-                            </div>
-                            <div class="row clearfix">
-
-                            </div>
-                            <hr>
-                            <h2 class="card-inside-title" style=" font-size: 20px;">
-                                Histórico
-                                <small style="font-size: 15px;"></small>
-                            </h2>
-                            <div class="body table-responsive">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>DATA</th>
-                                        <th>ATIVIDADE</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>08/08/2017</td>
-                                        <td>Você se cadastrou no Lise</td>
-                                    </tr>
-                                    <tr>
-                                        <td>08/08/2017</td>
-                                        <td>Você adicionou um novo plano de negócio</td>
-                                    </tr>
-                                    <tr>
-                                        <td>09/08/2017</td>
-                                        <td>A análise do plano de negócio Pizzaria em Teresina - PI foi ativada</td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </div>
+                        <div class="body">
+                            <div class="list-group">
+                                <a href='notificacao-1.html' type="button" class="active list-group-item"><span class="badge bg-blue-grey">4 horas atrás</span>O tópico Qualidade mudou de posição </a>
+                                <a href='notificacao-2.html' type="button" class="list-group-item"><span class="badge bg-blue-grey">3 dias atrás</span>A análise do plano Pizzaria em Teresina - PI está ativada </a>
+                                <a href='notificacao-3.html' class="list-group-item"><span class="badge bg-blue-grey">4 dias atrás</span>Sua solicitação de categoria foi aceita  </a>
+                                <a href='notificacao-4.html' class="list-group-item"><span class="badge bg-blue-grey">5 dias atrás</span>Sua solicitação de categoria foi enviada </a>
+                                <a href='notificacao-5.html' type="button" class="list-group-item"><span class="badge bg-blue-grey">5 dias atrás</span>Sua solicitação de categoria foi recusada </a>
+                                <a href='notificacao-6.html' class=" list-group-item"><span class="badge bg-blue-grey">6 dias atrás</span>Sua solicitação de categoria foi enviada </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- #END# Advanced Form Example With Validation -->
         </div>
-
+        
     </section>
-
-    <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Solicitação de Categória</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="row clearfix">
-                        <form id="form_validation" method="POST">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <p>
-                                    <b>Ramo</b>
-                                </p>
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Ex: Alimentício" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <p>
-                                    <b>Especialidade</b>
-                                </p>
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Ex: Pizzaria" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <p>
-                                    <b>Descrição</b>
-                                </p>
-                                <div class="form-line">
-                                    <textarea rows="2" cols="" class="form-control no-resize auto-growth" placeholder="Descreva sobre do que se trata a categoria desejada."></textarea>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <a type="button" class="btn btn-large bg-blue-grey waves-effect" data-dismiss="modal">Cancelar</a>
-                    <button type="button" onclick="confirmarSolicitacao();" class="btn btn-large bg-blue-grey waves-effect" >Enviar</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <script type="text/javascript">
-        function mostrarCamposDaEmpresa(){
-            document.getElementById('camposDaEmpresa').style.display = "block";
-        }
-        function ocultarCamposDaEmpresa(){
-            document.getElementById('camposDaEmpresa').style.display = "none";
-        }
-    </script>
-
+    
 
     <!-- Jquery Core Js -->
     <script src="../plugins/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core Js -->
-    <script src="../plugins/bootstrap/js/bootstrap.js">    </script>
+    <script src="../plugins/bootstrap/js/bootstrap.js"></script>
 
     <!-- Select Plugin Js -->
     <script src="../plugins/bootstrap-select/js/bootstrap-select.js"></script>
@@ -317,37 +214,56 @@
     <!-- Slimscroll Plugin Js -->
     <script src="../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
-    <!-- Bootstrap Notify Plugin Js -->
-    <script src="../plugins/bootstrap-notify/bootstrap-notify.js"></script>
-
     <!-- Waves Effect Plugin Js -->
     <script src="../plugins/node-waves/waves.js"></script>
+
+    <!-- Jquery CountTo Plugin Js -->
+    <script src="../plugins/jquery-countto/jquery.countTo.js"></script>
+
+    <!-- Bootstrap Notify Plugin Js -->
+    <script src="../plugins/bootstrap-notify/bootstrap-notify.js"></script>
 
     <!-- SweetAlert Plugin Js -->
     <script src="../plugins/sweetalert/sweetalert.min.js"></script>
 
+
+    <!-- Morris Plugin Js -->
+    <script src="../plugins/raphael/raphael.min.js"></script>
+    <script src="../plugins/morrisjs/morris.js"></script>
+
+    <!-- ChartJs -->
+    <script src="../plugins/chartjs/Chart.bundle.js"></script>
+
+    <!-- GMaps PLugin Js -->
+    <script src="../plugins/gmaps/gmaps.js"></script>
+
+    <!-- CHART LOADER -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Flot Charts Plugin Js -->
+    <script src="../plugins/flot-charts/jquery.flot.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="../plugins/flot-charts/jquery.flot.time.js"></script>
+
+    <!-- Sparkline Chart Plugin Js -->
+    <script src="../plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+    <!-- Jquery Knob Plugin Js -->
+    <script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
+
     <!-- Custom Js -->
     <script src="../js/admin.js"></script>
+    <script src="../js/pages/index.js"></script>
+    <script src="../js/pages/charts/jquery-knob.js"></script>
+    <script src="../js/pages/maps/google.js"></script>
     <script src="../js/pages/ui/dialogs.js"></script>
 
+
+
     <!-- Demo Js -->
-    <script src="../js/demo.js"></script> 
-
-    <!-- Input Mask Plugin Js -->
-    <script src="../plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
-
-
-    <!-- Jquery Validation Plugin Css -->
-    <script src="../plugins/jquery-validation/jquery.validate.js"></script>
-
-
-    <!-- JQuery Steps Plugin Js -->
-    <script src="../plugins/jquery-steps/jquery.steps.js"></script>
-
-    <!-- Custom Js -->
-    <script src="../js/pages/forms/form-validation.js"></script>
-
-    <script src="../js/pages/forms/advanced-form-elements.js"></script>
+    <script src="../js/demo.js"></script>
 
 </body>
 

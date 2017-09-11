@@ -25,6 +25,9 @@
     <!-- Sweetalert Css -->
     <link href="../plugins/sweetalert/sweetalert.css" rel="stylesheet" />
 
+    <!-- Bootstrap Select Css -->
+    <link href="../plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+
     <!-- Custom Css -->
     <link href="../css/style.css" rel="stylesheet">
 
@@ -46,7 +49,6 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
-                <a href="javascript:void(0);" class="bars"></a>
                 <a class="navbar-brand" id='logo' href="index.html">Lise</a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -67,92 +69,66 @@
                             <li class="body">
                                 <ul class="menu">
                                     <li>
-                                        <a href="javascript:void(0);">
-                                            <div class="icon-circle bg-light-green">
-                                                <i class="material-icons">person_add</i>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h4>12 new members joined</h4>
-                                                <p>
-                                                    <i class="material-icons">access_time</i> 14 mins ago
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">
-                                            <div class="icon-circle bg-cyan">
-                                                <i class="material-icons">add_shopping_cart</i>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h4>4 sales made</h4>
-                                                <p>
-                                                    <i class="material-icons">access_time</i> 22 mins ago
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">
-                                            <div class="icon-circle bg-red">
-                                                <i class="material-icons">delete_forever</i>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h4><b>Nancy Doe</b> deleted account</h4>
-                                                <p>
-                                                    <i class="material-icons">access_time</i> 3 hours ago
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">
-                                            <div class="icon-circle bg-orange">
-                                                <i class="material-icons">mode_edit</i>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h4><b>Nancy</b> changed name</h4>
-                                                <p>
-                                                    <i class="material-icons">access_time</i> 2 hours ago
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">
-                                            <div class="icon-circle bg-blue-grey">
+                                        <a href="notificacao-1.html">
+                                            <!-- <div class="icon-circle bg-blue-grey">
                                                 <i class="material-icons">comment</i>
-                                            </div>
+                                            </div> -->
                                             <div class="menu-info">
-                                                <h4><b>John</b> commented your post</h4>
+                                                <h4>O tópico Qualidade mudou de posição</h4>
                                                 <p>
-                                                    <i class="material-icons">access_time</i> 4 hours ago
+                                                    <i class="material-icons">access_time</i> 4 horas atrás
                                                 </p>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);">
-                                            <div class="icon-circle bg-light-green">
-                                                <i class="material-icons">cached</i>
-                                            </div>
+                                        <a href="notificacao-2.html">
+                                           <!--  <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">person_add</i>
+                                            </div> -->
                                             <div class="menu-info">
-                                                <h4><b>John</b> updated status</h4>
+                                                <h4>A análise do plano Pizzaria em Teresina - PI está ativada</h4>
                                                 <p>
-                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                    <i class="material-icons">access_time</i> 3 dias atrás
                                                 </p>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);">
-                                            <div class="icon-circle bg-purple">
-                                                <i class="material-icons">settings</i>
-                                            </div>
+                                        <a href="notificacao-3.html">
+                                            <!-- <div class="icon-circle bg-cyan">
+                                                <i class="material-icons">add_shopping_cart</i>
+                                            </div> -->
                                             <div class="menu-info">
-                                                <h4>Settings updated</h4>
+                                                <h4>Sua solicitação de categoria foi aceita</h4>
                                                 <p>
-                                                    <i class="material-icons">access_time</i> Yesterday
+                                                    <i class="material-icons">access_time</i> 4 dias atrás
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="notificacao-4.html">
+                                            <!-- <div class="icon-circle bg-red">
+                                                <i class="material-icons">delete_forever</i>
+                                            </div> -->
+                                            <div class="menu-info">
+                                                <h4>Sua solicitação de categoria foi enviada</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 5 dias atrás
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="notificacao-5.html">
+                                            <!-- <div class="icon-circle bg-orange">
+                                                <i class="material-icons">mode_edit</i>
+                                            </div> -->
+                                            <div class="menu-info">
+                                                <h4>Sua solicitação de categoria foi recusada</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 5 dias atrás
                                                 </p>
                                             </div>
                                         </a>
@@ -160,7 +136,7 @@
                                 </ul>
                             </li>
                             <li class="footer">
-                                <a href="javascript:void(0);">View All Notifications</a>
+                                <a href="notificacao.html">Visualizar todas</a>
                             </li>
                         </ul>
                     </li>
@@ -207,6 +183,59 @@
                                 </div>
                             </div>
                             <hr>
+                            <div class="clearfix">
+                                <h2 class="card-inside-title" style=" font-size: 20px;">
+                                    Tipo de Plano de Negócio
+                                    <!-- <small style="font-size: 15px;">Aqui você informa se você deseja realizar análise de concorrentes de um Negócio Novo ou da sua empresa (Negócio Existente).</small> -->
+                                </h2>
+                                <div class="demo-radio-button">
+                                    <input name="group4" type="radio" id="radio_7" class="radio-col-blue-grey" />
+                                    <label for="radio_7" onclick="ocultarCamposDaEmpresa();">Negócio Novo</label>
+                                    <input name="group4" type="radio" id="radio_8" class="radio-col-blue-grey" checked="" />
+                                    <label for="radio_8" onclick="mostrarCamposDaEmpresa();">Negócio Existente</label>
+                                </div>
+                            </div>
+                            <div id="camposDaEmpresa" style="display: block;">
+                                <hr>
+                                <h2 class="card-inside-title" style=" font-size: 20px;">
+                                    Sobre a Empresa
+                                    <!-- <small style="font-size: 15px;">Cadastre a sua empresa no plano de negócio.</small> -->
+                                </h2>
+                                <div class="row clearfix">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                                        <p>
+                                            <b>Nome da empresa</b>
+                                        </p>
+
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" value="NayPizza" placeholder="Ex: Pizzaria Gosto Bom" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-6">
+                                        <p>
+                                            <b>Data de criação</b>
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="material-icons">date_range</i>
+                                            </span>
+                                            <div class="form-line">
+                                                <input type="text" class="form-control date" value="29/03/2016" placeholder="Ex: 30/07/2016">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input type="checkbox" id="checkbox1" name="checkbox1" checked>
+                                        <label for="checkbox1"  >Eu afirmo que essa empresa está relacionada com a categoria 
+                                        desse plano de negócio.</label>
+                                        <input type="checkbox" id="checkbox2" name="checkbox2" checked="">
+                                        <label for="checkbox2">Eu afirmo que sou dono ou posso representar essa empresa.</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
                             <h2 class="card-inside-title" style=" font-size: 20px;">
                                 Categoria do Negócio
                                 <!-- <small style="font-size: 15px;">Do que se trata seu negócio? O Lise já está preparado para analisar concorrentes de várias categorias, se não houver a categória do seu negócio, faça uma solicitação. Nós iremos avaliar sua solicitação e em breve retornaremos com a resposta.</small> -->
@@ -228,7 +257,7 @@
                                         <b>Especialidade</b>
                                     </p>
 
-                                    <select class="form-control show-tick">
+                                    <select class="form-control ">
                                         <option>Fast Food</option>
                                         <option selected="selected">Pizzaria</option>
                                         <option>Restaurante</option>
@@ -239,7 +268,7 @@
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <b>Não tem categória para sua ideia?</b>
-                                    <a data-toggle="modal" data-target="#myModal"> Solicite uma categoria.</a>
+                                    <a href='javascript:void(0);' type='button' data-toggle="modal" data-target="#myModal"> Solicite uma categoria.</a>
                                 </div>
 
                             </div>
@@ -272,59 +301,6 @@
                                         <option>Parnaiba</option>
                                     </select>
 
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="clearfix">
-                                <h2 class="card-inside-title" style=" font-size: 20px;">
-                                    Tipo de Plano de Negócio
-                                    <!-- <small style="font-size: 15px;">Aqui você informa se você deseja realizar análise de concorrentes de um Negócio Novo ou da sua empresa (Negócio Existente).</small> -->
-                                </h2>
-                                <div class="demo-radio-button">
-                                    <input name="group4" type="radio" id="radio_7" class="radio-col-blue-grey" />
-                                    <label for="radio_7" onclick="ocultarCamposDaEmpresa();">Negócio Novo</label>
-                                    <input name="group4" type="radio" id="radio_8" class="radio-col-blue-grey" checked="" />
-                                    <label for="radio_8" onclick="mostrarCamposDaEmpresa();">Negócio Existente</label>
-                                </div>
-                            </div>
-                            <div id="camposDaEmpresa" style="display: block;">
-                                <hr>
-                                <h2 class="card-inside-title" style=" font-size: 20px;">
-                                    Sobre a Empresa
-                                    <!-- <small style="font-size: 15px;">Cadastre a sua empresa no plano de negócio.</small> -->
-                                </h2>
-                                <div class="row clearfix">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-                                        <p>
-                                            <b>Nome da empresa</b>
-                                        </p>
-
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" value="Mercatto da Pizza" placeholder="Ex: Pizzaria Gosto Bom" />
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-6">
-                                        <p>
-                                            <b>Data de criação</b>
-                                        </p>
-                                        <div class="input-group">
-                                            <span class="input-group-addon">
-                                                <i class="material-icons">date_range</i>
-                                            </span>
-                                            <div class="form-line">
-                                                <input type="text" class="form-control date" value="29/03/2016" placeholder="Ex: 30/07/2016">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <input type="checkbox" id="checkbox1" name="checkbox1" checked>
-                                        <label for="checkbox1"  >Eu afirmo que essa empresa está relacionada com a categoria 
-                                        desse plano de negócio.</label>
-                                        <input type="checkbox" id="checkbox2" name="checkbox2" checked="">
-                                        <label for="checkbox2">Eu afirmo que sou dono ou posso representar essa empresa.</label>
-                                    </div>
                                 </div>
                             </div>
 
