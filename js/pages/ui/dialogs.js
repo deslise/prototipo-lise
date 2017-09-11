@@ -102,7 +102,7 @@ function salvarCadastro() {
 function confirmarSolicitacao() {
     swal({
         title: "Sua solicitação foi enviada",
-        text: "A análise iniciará novamente, em breve seu plano estará ativo.",
+        text: "Em breve você receberá uma resposta.",
         type:"success",
         showCancelButton: false,
         confirmButtonColor: "#607D8B"
@@ -160,6 +160,7 @@ function cancelarEdicao() {
         showCancelButton: true,
         confirmButtonColor: "#607D8B",
         confirmButtonText: "Sim",
+        cancelButtonText: 'Não',
         closeOnConfirm: false
     }, function () {
         window.location="index.html";
