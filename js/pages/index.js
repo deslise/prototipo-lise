@@ -73,20 +73,20 @@ function initDonutChart() {
         element: 'donut_chart',
         data: [{
             label: 'Qualidade', //chrome
-            value: 37
+            value: 34
         }, {
-            label: 'Atendimento', // firefox
-            value: 30
+            label: 'Localização', // firefox
+            value: 19
         }, {
-            label: 'Localização', // safari
-            value: 18
+            label: 'Atendimento', // safari
+            value: 13
         }, {
             label: 'Preço', //opera
-            value: 12
+            value: 8
         },
         {
             label: 'Outros', //other
-            value: 3
+            value: 26
         }],
         colors: ['rgb(233, 30, 99)', 'rgb(0, 188, 212)', 'rgb(255, 152, 0)', 'rgb(0, 150, 136)', 'rgb(96, 125, 139)'],
         formatter: function (y) {
